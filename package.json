@@ -1,0 +1,22 @@
+{
+  "name": "euro-flags",
+  "version": "1.0.0",
+  "description": "Print the flags of 28 European countries to the console!",
+  "main": "./src/index.js",
+  "bin": {
+    "euro-flags": "./src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spirometaxas/euro-flags.git"
+  },
+  "scripts": {
+    "cli": "node ./src/cli.js"
+  },
+  "author": "Spiro Metaxas",
+  "license": "MIT",
+  "keywords": [ "Europe", "flags", "euro-flags", "world flags", "country flags", "countries", "cli", "unicode", "ansi" ]
+}
