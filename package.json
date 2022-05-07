@@ -1,6 +1,6 @@
 {
   "name": "euro-flags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Print the flags of 28 European countries to the console!",
   "main": "./src/index.js",
   "bin": {

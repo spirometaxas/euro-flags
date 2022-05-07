@@ -6,6 +6,10 @@ const getScale = function(params, country, border) {
         if (params[i] && params[i].startsWith('--scale=')) {
             const scaleString = params[i].replace('--scale=', '').trim();
             if (scaleString.toLowerCase() === 'full') {
+                if (!process.stdout.isTTY) {
+                    console.log('\nError: --scale=full only works in a terminal.  Using default scale.');
+                    return -1;
+                }
                 const countryData = euro_flags[country];
                 if (countryData) {
                     const flagW = euro_flags[country].minWidth();
