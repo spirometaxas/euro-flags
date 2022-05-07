@@ -66,7 +66,6 @@ $ euro-flags <country-name> --scale=<positive-number>
 ## Supported Countries (28)
 Due to limitations of ASCII art, only flags that can be drawn using block characters are included.
 
-`Armenia`, `Austria`, `Belgium`, `Bulgaria`, `Denmark`, `England`, `Estonia`, `Finland`, `France`, `Georgia`, `Germany`, `Greece`, `Hungary`, `Iceland`, `Ireland`, `Italy`, `Latvia`, `Lithuania`, `Luxembourg`, `Monaco`, `Netherlands`, `Norway`, `Poland`, `Romania`, `Russia`, `Sweden`, `Switzerland`, `Ukraine`
 #### Armenia
 ```
 $ euro-flags Armenia
