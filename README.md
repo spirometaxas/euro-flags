@@ -347,8 +347,8 @@ $ euro-flags Ukraine
 | 2 rows x 6 columns   | (2:3)          | 5             | [Link](https://en.wikipedia.org/wiki/Flag_of_Ukraine)   |
 
 ###### Notes
-- `Minimum Dimensions` - The smallest possible dimensions used to render the flag (when `--scale=1`).
-- `Target Ratio` - The preferred ratio to use when rendering the flag.  Most flags match the target ratio exactly.  Some flags are within 1-2 columns of the target ratio, in an attempt to support smaller renderings.
+- `Minimum Dimensions` - The smallest possible dimensions used to render the flag (when `--scale=1`).    
+- `Target Ratio` - The preferred ratio to use when rendering the flag.  Most flags match the target ratio exactly.  Some flags are within 1-2 columns of the target ratio, in an attempt to support smaller renderings.  Also assume 1 row height equals 2 column widths.
 - `Default Scale` - The scale used to render the flag when the `--scale` flag is not included.
 
 ## Related
